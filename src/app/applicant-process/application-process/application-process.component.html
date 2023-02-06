@@ -1,14 +1,91 @@
-<div class="card-container text-center ">
+<div class="container text-center ">
   <div class="row m-4 loan-boarder">
-    <div class="col">
+    <div class="col-12">
       <div class="loader mb-4"></div>
       <div id="header-text">Please wait while the application is processed</div>
       <p>This step usually takes less than 2 minutes</p><br>
       <p>You may wait or go back to the customer record. You will receive an alert when the status changes.</p>
+
+      <br>
+      <p>
+        Smart Home Pay is Issued by WebBank
+      </p>
+
+    </div>
+  </div>
+
+
+</div>
+
+<!--display to user if their application is taking a while to be approved-->
+<div class="container container-box">
+  <div class="row">
+    <div class="col text-center">
+      <h5>Your application is pending</h5>
+      <p>
+        This application is currently under manual review with our team. The process takes 30 minutes on
+        average. You will receive an alert when the status changes. </p>
+      <br>
+
+      <p> Note: This review is often required to verify information shared in the application. You can expedite
+        the process by emailing a picture of the applicant's government-issued ID to
+        applicants@smarthomepay.com.</p>
+      <br>
+
+      <p>If you have any further questions, you can call (866) 788-7942.</p>
+
+      <br>
+      <p>
+        Smart Home Pay is Issued by WebBank
+      </p>
     </div>
   </div>
 </div>
+
+<!--display this if the user's application has been denied-->
+<div class="container container-box">
+  <div class="row">
+    <div class="col text-center">
+      <h5>Thank you for application</h5>
+      <p>
+        Unfortunately, the application was not approved at this time. The applicant will receive an email
+        notice notice with the reasons for this decision and the results of the credit review within 30 days
+        of application.
+      </p>
+
+      <br>
+      <p>
+        Smart Home Pay is Issued by WebBank
+      </p>
+    </div>
+  </div>
+</div>
+
+<!--display this to user if their application needs more info-->
+<div class="container container-box">
+  <div class="row">
+    <div class="col text-center">
+      <p>
+        We need some additional information to process your application.
+      </p>
+      <p>Please email a picture of a government issued ID to [insert email here] with the application number in the
+        subject line.</p>
+      <br>
+      <p>We will review the information and call your sales representative or you if we need more information</p>
+      <br>
+      <p>You can also call our team at [insert phone number here]</p>
+
+      <br>
+      <p>
+        Smart Home Pay is Issued by WebBank
+      </p>
+    </div>
+  </div>
+</div>
+
 <hr>
-<div class="d-flex justify-content-center">
-  <button (click)="navigateForward()" class="btn submit-btn text-white">next</button>
+<div class="row mb-5">
+  <div class="col d-flex justify-content-center">
+    <button (click)="navigateForward()" class="btn submit-btn text-white">next</button>
+  </div>
 </div>

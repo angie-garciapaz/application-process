@@ -3,10 +3,10 @@ import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-loan-details',
-  templateUrl: './loan-details.component.html',
-  styleUrls: ['./loan-details.component.css', '../../app.component.css']
+  templateUrl: './application-process.component.html',
+  styleUrls: ['./application-process.component.css', '../../app.component.css']
 })
-export class LoanDetailsComponent {
+export class ApplicationProcessComponent {
   constructor(private router: Router) {
   }
 

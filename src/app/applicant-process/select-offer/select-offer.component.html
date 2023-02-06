@@ -1,1 +1,58 @@
-<p>select-offer works!</p>
+<div class="container p-3">
+  <div class="row">
+    <div class="col">
+      <h6 class="fw-bold">Loan Details</h6>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <form>
+        <div class="form-group w-50">
+          <label for="finalAmount">Final Amount</label>
+          <input type="number" class="form-control" id="finalAmount">
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+
+  <div class="row pt-4" id="select-box-offer">
+    <div class="col-12">
+      <ul style="list-style: none;">
+        <li>
+          <h6>Thank you for selecting an offer.</h6>
+        </li>
+      </ul>
+      <ol>
+        <li>Please confirm the final amount of your install with your service provider here.</li>
+        <li>Enter your payment details in Smart Home Pay</li>
+        <li>Confirm your phone number via OTP</li>
+      </ol>
+      <br>
+      <br>
+      <div class="small-text text-center mx-auto">You can add bank account details or a debit card. If you enroll in
+        autopay, you can set this up once and not
+        have to worry about it anymore.
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 text-center">
+      <br>
+      <p>
+        Smart Home Pay is Issued by WebBank
+      </p>
+    </div>
+  </div>
+
+  <hr>
+  <div class="row">
+    <div class="col d-flex justify-content-center">
+      <button (click)="navigateForward()" class="text-white btn submit-btn">next</button>
+    </div>
+  </div>
+
+</div>

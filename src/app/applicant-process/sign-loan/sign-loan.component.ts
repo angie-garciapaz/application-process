@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-sign-loan',
   templateUrl: './sign-loan.component.html',
-  styleUrls: ['./sign-loan.component.css']
+  styleUrls: ['./sign-loan.component.css', './../../app.component.css']
 })
 export class SignLoanComponent {
 
