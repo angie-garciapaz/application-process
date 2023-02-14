@@ -7,6 +7,9 @@ import {Router} from "@angular/router";
   styleUrls: ['./application-process.component.css', '../../app.component.css']
 })
 export class ApplicationProcessComponent {
+
+  state:string = 'pending';
+
   constructor(private router: Router) {
   }
 
